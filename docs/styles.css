@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e6f1f8;
+    color: #273848;
+}
+
+.logo {
+    width: 100px;
+    margin: 10px auto;
+    display: block;
+}
+
+
+/* encabezado :) */
+.encabezado {
+    background-color: #afd6f0;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+.encabezado h1 {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 36px;
+}
+
+.info-empresa {
+    margin-top: 20px;
+}
+
+/* proyectos :) */
+.proyectos {
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.tarjeta {
+    background-color: #b9d9ee;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.tarjeta img {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/* contacto :) */
+.contacto {
+    background-color: #c5e0f1;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+form {
+    max-width: 350px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #a9cde9;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #7eb8dc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #63a4ce;
+}
+
+/* pie de pagina :) */
+.pie {
+    background-color: #98c8e8;
+    text-align: center;
+    padding: 20px;
+}
+
+.pie a {
+    margin: 0 10px;
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+
+/*tamanios de pagina :) */
+@media (max-width: 768px) {
+    .tarjeta {
+        margin: 15px;
+    }
+}
