@@ -1,4 +1,3 @@
-
 // clase para representar una tarea :)
 class Tarea {
     constructor(nombre, completada = false) {
@@ -93,5 +92,3 @@ const editarTarea = (index) => {
 };
 
 mostrarTareas();
-
-
