@@ -93,5 +93,3 @@ const editarTarea = (index) => {
 };
 
 mostrarTareas();
-
-
