@@ -1,4 +1,3 @@
-
 // clase para representar una tarea :)
 class Tarea {
     constructor(nombre, completada = false) {
